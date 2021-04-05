@@ -1,2 +1,2 @@
-overrideBaseUrl: redis://:password@gitops-test-spin-redis-master:6379
+overrideBaseUrl: redis://:password@arjun-test-redis-master:6379
 skipLifeCycleManagement: true
