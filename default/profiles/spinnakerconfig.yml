@@ -7,9 +7,9 @@ spring:
         git:
           ## Below DYNAMIC_ACCOUNTS_REPO, GIT_USER, GIT_TOKEN are fed via
           ## opsmx-gitops-secret.yaml file in oes helm chart
-          uri: DYNAMIC_ACCOUNTS_REPO
-          username: GIT_USER
-          password: GIT_TOKEN
+          uri: https://github.com/arjunopsmx/dync-test.git
+          username: arjunopsmx
+          password: 19c88fef76701eba27279d9a4077a46e34a4ff3c
           basedir: /tmp/config-repo
           refresh-rate: 10
 encrypt:
